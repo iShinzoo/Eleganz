@@ -1,0 +1,400 @@
+* {
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    display: flex;
+    height: 80px;
+    color: #284b63;
+    padding-left: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.text-of-logo {
+    font-size: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: flex-end;
+}
+
+.free-space {
+    width: 600px;
+    height: 80px;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 800px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.rmv-line {
+    text-decoration: none;
+    color: #284b63;
+}
+
+.hero-section {
+    display: grid;
+    justify-content: center;
+    background-image: url("img/cover.jpg");
+    height: 690px;
+    width: 100%;
+    background-size: cover;
+}
+
+.branding-eleganz {
+    font-size: 80px;
+    padding-top: 300px;
+    color: #284b63;
+}
+
+.branding-msg {
+    font-size: 30px;
+    padding-left: 190px;
+    color: #284b63;
+}
+
+.shop-now-button {
+    height: 35.2px;
+    width: 70px;
+    font-size: 18px;
+    border: 2px solid #284b63;
+    background-color: white;
+    width: 150px;
+    margin-bottom: 200px;
+    margin-left: 350px;
+}
+
+.shop-deco {
+    text-decoration: none;
+    color: #284b63;
+    font-weight: 700;
+}
+
+.display {
+    height: 600px;
+    width: 95%;
+    background-color: #ffffff;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.display1 {
+
+    background-image: url("images/category-1.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.display2 {
+    background-image: url("images/category-2.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 30%;
+    border-radius: 10px;
+
+}
+
+.display3 {
+    background-image: url("images/category-3.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.feature {
+    text-align: center;
+    color: #284b63;
+    height: 60px;
+    padding-top: 40px;
+    font-size: 40px;
+}
+
+.box {
+    height: 450px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.shopping {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.box-img {
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    color: #007185;
+}
+
+.Latest {
+    text-align: center;
+    color: #284b63;
+    height: 60px;
+    padding-top: 40px;
+    font-size: 40px;
+}
+
+.box1 {
+    height: 500px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.shopping1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.box-img1 {
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content1 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content1 p {
+    color: #007185;
+}
+
+.banner-branding {
+    background-color: #f4a261;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.only-text-branding {
+    padding-left: 200px;
+    width: 700px;
+    color: #ffffff;
+
+}
+
+.smart-brand {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.branding-msg2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.buy-button {
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    border: 0.5px solid #ffffff;
+    background-color: #e76f51;
+}
+
+.buy-deco {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.only-logo-branding {
+    background-image: url("images/exclusive.png");
+    height: 400px;
+    width: 500px;
+    background-size: contain;
+    margin-right: 200px;
+}
+
+.brands-logo {
+    height: 240px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.coca-cola {
+    height: 90px;
+    width: 180px;
+    background-size: cover;
+}
+
+.phillips {
+    height: 90px;
+    width: 180px;
+    background-size: cover;
+}
+
+.godrej {
+    height: 90px;
+    width: 180px;
+    background-size: cover;
+}
+
+.oppo {
+    height: 90px;
+    width: 180px;
+    background-size: cover;
+}
+
+.paypal {
+    height: 90px;
+    width: 180px;
+    background-size: cover;
+}
+
+.foot-panel1 {
+    background-color: #ffff;
+    color: #ffffff;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    margin-top: 15px;
+}
+
+.foot-panel2 {
+    background-color: #284b63;
+    color: #ffffff;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 0.5px solid white;
+
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.foot-panel3 {
+    background-color: #284b63;
+    color: #ffffff;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-logo {
+    height: 50px;
+    background-size: cover;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel4 {
+    background-color: #284b63;
+    color: #ffffff;
+    height: 85px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.pages {
+    padding: 20px;
+
+}
+
+.copy {
+    padding-top: 3px;
+}
+
+.back-button {
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: #284b63;
+}
+
+.back-deco {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.Home-button {
+    height: 40px;
+    width: 120px;
+    border-radius: 25px;
+    border: 0.5px solid #ffffff;
+    background-color: #284b63;
+}
+
+.Home-deco {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.box:hover {
+    transform: translateY(-10px);
+    transition: 0.2s all linear;
+}
+
+.box1:hover{
+    transform: translateY(-10px);
+    transition: 0.2s all linear;
+}
+
+.back-button:hover {
+    height: 35px;
+    width: 170px;
+}
